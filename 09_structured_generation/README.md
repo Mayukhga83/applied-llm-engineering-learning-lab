@@ -11,3 +11,9 @@ This module introduces explicit contracts between a language model and the appli
 - distinguish retryable generation failures from application failures.
 
 Run the examples from the repository root and use `python -m unittest discover -s tests` to execute the test suite.
+
+```bash
+python 09_structured_generation/example.py
+```
+
+The example deliberately simulates the model response. Replace only that boundary with a hosted or local model adapter; validation and tool execution should remain ordinary application code.
