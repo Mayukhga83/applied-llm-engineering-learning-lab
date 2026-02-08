@@ -1,6 +1,6 @@
 # Applied LLM Engineering Learning Lab
 
-This repository is an educational reconstruction of a six-month learning path in practical LLM engineering.
+This repository is an educational reconstruction of a learning path in practical LLM engineering.
 
 It covers:
 
@@ -11,8 +11,13 @@ It covers:
 - Responsible AI assistant prototyping
 - Knowledge-graph memory for agents
 - Deployment basics with Streamlit, Docker, and Kubernetes notes
+- Structured generation and tool contracts
+- Hybrid retrieval, reranking, and retrieval evaluation
+- Bounded agents and Model Context Protocol integration
+- Evaluation-driven development, security, and observability
+- Modern post-training with preference and verifiable-reward methods
 
-> Transparency note: this repository is organized retrospectively as a learning archive. Some commits may use historical dates to structure the educational timeline. It should not be interpreted as a real-time work log.
+> Transparency note: this repository is organized retrospectively as a learning archive. Some commits use historical author and committer dates to structure the educational timeline, including the advanced track reconstructed across February and March 2026. It should not be interpreted as a real-time work log.
 
 ## Repository Structure
 
@@ -25,8 +30,23 @@ It covers:
 06_responsible_ai_assistant/
 07_knowledge_graph_memory/
 08_deployment_basics/
+09_structured_generation/
+10_advanced_rag/
+11_agent_engineering/
+12_eval_driven_development/
+13_agent_security_observability/
+14_modern_post_training/
+common/
+evals/
+benchmarks/
+reports/
+tests/
 assets/
 ```
+
+## Advanced track
+
+The advanced track treats evaluation as infrastructure rather than a final check. Each module contains a small, provider-neutral implementation, executable examples, tests, and measurable acceptance criteria. Optional integrations are isolated behind interfaces so the core exercises run locally.
 
 ## How to use
 

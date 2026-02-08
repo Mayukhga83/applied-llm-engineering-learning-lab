@@ -33,3 +33,13 @@
 - Added Neo4j Cypher schema
 - Added graph retrieval prototype
 - Added Docker and Kubernetes learning notes
+
+## Advanced Track — Reconstructed February–March 2026
+- Added structured generation contracts and validation
+- Compared lexical, dense, hybrid, and reranked retrieval
+- Built a bounded tool-using agent and MCP learning server
+- Added reusable response, retrieval, and trace evaluations
+- Added executable agent-security tests and observability
+- Compared SFT, DPO, and verifiable-reward training workflows
+
+This advanced track is a retrospective educational reconstruction. Its historical commit dates organize the intended learning sequence and are not a contemporaneous activity record.
