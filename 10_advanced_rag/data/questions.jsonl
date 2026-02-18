@@ -1,0 +1,6 @@
+{"id":"q-001","query":"How does hybrid search handle exact terms and paraphrases?","relevant_ids":["doc-001"]}
+{"id":"q-002","query":"How can ranked results be combined without comparable scores?","relevant_ids":["doc-003"]}
+{"id":"q-003","query":"What component improves the ordering of an initial candidate list?","relevant_ids":["doc-002"]}
+{"id":"q-004","query":"How should factual claims and their sources be evaluated?","relevant_ids":["doc-004"]}
+{"id":"q-005","query":"When should an autonomous system request permission?","relevant_ids":["doc-005"]}
+{"id":"q-006","query":"What should be inspected beyond an agent's final response?","relevant_ids":["doc-006"]}
