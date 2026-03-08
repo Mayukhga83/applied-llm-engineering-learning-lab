@@ -1,0 +1,3 @@
+{"id":"answer-001","input":"What combines lexical and semantic search?","expected":"hybrid retrieval","output":"Hybrid retrieval combines lexical and semantic search."}
+{"id":"retrieval-001","input":"How are heterogeneous rankings merged?","relevant_ids":["doc-003"],"retrieved_ids":["doc-003","doc-001"]}
+{"id":"agent-001","input":"Find evidence and answer.","output":"Evidence found.","trace":[{"event":"decision","tool":"search"},{"event":"tool_result","tool":"search"},{"event":"final"}]}
