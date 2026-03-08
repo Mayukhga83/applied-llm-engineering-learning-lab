@@ -22,7 +22,7 @@ def trace_structure(case: EvalCase, max_steps: int = 8) -> EvalResult:
     if any(event.get("event") == "tool_call" and not event.get("tool") for event in case.trace):
         failures.append("unnamed_tool")
     score = max(0.0, 1.0 - len(failures) * 0.25)
-    return EvalResult(case.id, "trace_structure", score, not failures, {"failures": failures, "events": counts})
+    return EvalResult(case.id, "trace_structure", score, not failures, {"failures": failures, "events": dict(counts)})
 
 
 def tool_argument_quality(case: EvalCase) -> EvalResult:
