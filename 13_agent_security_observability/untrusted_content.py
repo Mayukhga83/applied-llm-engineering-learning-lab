@@ -26,7 +26,10 @@ class TriageResult:
 
 
 RULES = {
-    "instruction_override": re.compile(r"\b(ignore|override|disregard)\b.{0,40}\b(instruction|system|previous)\b", re.IGNORECASE),
+    "instruction_override": re.compile(
+        r"(?:\b(ignore|override|disregard)\b.{0,40}\b(instruction|system|previous)\b|\b(system|instruction)\b.{0,20}\boverride\b)",
+        re.IGNORECASE,
+    ),
     "secret_request": re.compile(r"\b(api[_ -]?key|token|password|system prompt|credential)\b", re.IGNORECASE),
     "external_transfer": re.compile(r"\b(send|upload|forward|post)\b.{0,80}https?://", re.IGNORECASE),
     "persistent_authority": re.compile(r"\b(remember permanently|future .{0,30}pre-approved|always authorize)\b", re.IGNORECASE),
