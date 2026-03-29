@@ -1,0 +1,13 @@
+{
+  "method": "grpo",
+  "model": "outputs/post_training/sft",
+  "dataset": "14_modern_post_training/data/preferences.jsonl",
+  "output_dir": "outputs/post_training/grpo",
+  "seed": 42,
+  "learning_rate": 0.000005,
+  "epochs": 1,
+  "per_device_batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "max_length": 1024,
+  "use_peft": true
+}
