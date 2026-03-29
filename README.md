@@ -77,6 +77,27 @@ streamlit run 06_responsible_ai_assistant/demo_app.py
 streamlit run 07_knowledge_graph_memory/app.py
 ```
 
+Run the dependency-free advanced-track checks:
+
+```bash
+python -m unittest discover -s tests
+python 10_advanced_rag/benchmark.py
+python 11_agent_engineering/mcp_client.py
+python -m evals.run
+```
+
+Validate the optional post-training plans without downloading models:
+
+```bash
+python 14_modern_post_training/train_sft.py
+python 14_modern_post_training/train_dpo.py
+python 14_modern_post_training/train_grpo.py
+```
+
+Install `requirements-advanced.txt` only on a machine intended for training experiments.
+
 ## Learning Timeline
 
 See [`timeline.md`](timeline.md).
+
+See [`docs/reproducibility.md`](docs/reproducibility.md) for the experiment contract and [`docs/roadmap.md`](docs/roadmap.md) for intentionally deferred work.

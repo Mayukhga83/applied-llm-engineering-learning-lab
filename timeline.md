@@ -43,3 +43,12 @@
 - Compared SFT, DPO, and verifiable-reward training workflows
 
 This advanced track is a retrospective educational reconstruction. Its historical commit dates organize the intended learning sequence and are not a contemporaneous activity record.
+
+### Reconstructed study sessions
+
+- 8 February 2026 — structured generation and model contracts
+- 18 February 2026 — advanced retrieval and reranking
+- 28 February 2026 — bounded agents and MCP
+- 8 March 2026 — evaluation-driven development
+- 19 March 2026 — agent security and observability
+- 29 March 2026 — modern post-training and reproducibility
